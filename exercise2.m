@@ -2,6 +2,7 @@ f=imread('D:\Users\Renee\Downloads\fruits.png');
 imshow(f)
 imfinfo('D:\Users\Renee\Downloads\fruits.png')
 whos f
+#the data type of fruits.png is uint8
 g=imresize(f,0.5);
 imshow(g)
 imwrite(g,'D:\Users\Renee\Downloads\fruits2.png');
